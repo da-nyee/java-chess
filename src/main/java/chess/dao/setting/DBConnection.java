@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DBConnection {
     public Connection getConnection() {
-        final String server = "localhost:3306";                                   // MySQL 서버 주소
+        final String server = "localhost:13306";                                  // MySQL 서버 주소
         final String database = "mydb";                                           // MySQL DATABASE 이름
         final String option = "?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC";
         final String userName = "da-nyee";                                        //  MySQL 서버 아이디
